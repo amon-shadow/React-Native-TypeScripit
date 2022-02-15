@@ -7,7 +7,12 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "ios11": "react-native run-ios --simulator=\"iPhone 11\"",
+    "release:android": "cd android && ./gradlew assembleRelease",
+    "clean:android": "cd android && ./gradlew clean",
+    "release:bundle": "cd android && ./gradlew bundleRelease",
+    "test:apk": "react-native run-android --variant=release"
   },
   "dependencies": {
     "@react-native-community/datetimepicker": "^5.1.0",
