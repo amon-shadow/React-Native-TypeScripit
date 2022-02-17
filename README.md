@@ -90,11 +90,12 @@ Add App icon in resource mipmap folder image in android android and iOS resource
 Change Api url in AppConstant.ts file (ProdBase,  DebugBase)
 
 ```
+## Roadmap
 
-
-
-
-
+- :white_check_mark: Create Boilerplate Project
+- :white_check_mark: Add Codepush
+- Add Flavors in Android (Dev, Staging and Production)
+- Add Flavors in iOS (Dev, Staging and Production)
 
 
 ## Contributing
