@@ -2,7 +2,7 @@
 
 Boilerplate to start-kit for any React Native Project.
 
-<img width="1604"  src="https://github.com/amon-shadow/React-Native-TypeScripit/blob/updatedoc/appImage/banner.png?raw=true">
+<img width="1604"  src="appImage/banner.png?raw=true">
 
 integrated following library.
 ```
@@ -56,13 +56,13 @@ Change code push keys in ios and android folder
 ```bash
 android/app/build.gradle
 ```
-<img width="1604"  src="https://github.com/amon-shadow/React-Native-TypeScripit/blob/updatedoc/appImage/android-codepush.png?raw=true">
+<img width="1604"  src="appImage/android-codepush.png?raw=true">
 
 ### iOS
 ```bash
 project build setting user define key CODEPUSH_KEY ;
 ```
-<img width="1604"  src="https://github.com/amon-shadow/React-Native-TypeScripit/blob/updatedoc/appImage/ios-codepush.png?raw=true">
+<img width="1604"  src="appImage/ios-codepush.png?raw=true">
 
 ## Package name
 
