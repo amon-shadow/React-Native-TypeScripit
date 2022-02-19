@@ -1,6 +1,8 @@
-# Boilerplate
+# React-Native-Typescript
 
 Boilerplate to start-kit for any React Native Project.
+
+<img width="1604"  src="https://github.com/amon-shadow/React-Native-TypeScripit/blob/updatedoc/appImage/banner.png?raw=true">
 
 integrated following library.
 ```
@@ -26,6 +28,7 @@ react-native-vector-icons
 ## Installation
 Clone repo and do necessary changes.
 
+
 ```bash
 yarn install
 cd ios && pod install
@@ -49,15 +52,18 @@ the entry is
 
 Change code push keys in ios and android folder
 
-InAndroid
+### Android
 ```bash
 android/app/build.gradle
 ```
+<img width="1604"  src="https://github.com/amon-shadow/React-Native-TypeScripit/blob/updatedoc/appImage/android-codepush.png?raw=true">
 
-In Ios
+### iOS
 ```bash
 project build setting user define key CODEPUSH_KEY ;
 ```
+<img width="1604"  src="https://github.com/amon-shadow/React-Native-TypeScripit/blob/updatedoc/appImage/ios-codepush.png?raw=true">
+
 ## Package name
 
 This is shown in the Play Store and the details in About App of your Android device. This should say something like com.myapp or com.company.appname or something similar.
@@ -84,11 +90,12 @@ Add App icon in resource mipmap folder image in android android and iOS resource
 Change Api url in AppConstant.ts file (ProdBase,  DebugBase)
 
 ```
+## Roadmap
 
-
-
-
-
+- :white_check_mark: Create Boilerplate Project
+- :white_check_mark: Add Codepush
+- Add Flavors in Android (Dev, Staging and Production)
+- Add Flavors in iOS (Dev, Staging and Production)
 
 
 ## Contributing
